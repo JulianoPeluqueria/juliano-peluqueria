@@ -1,0 +1,9 @@
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.header-logo {
+  max-width: 100px;
+}
