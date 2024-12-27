@@ -1,0 +1,16 @@
+.about {
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.about img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+}

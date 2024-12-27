@@ -1,0 +1,17 @@
+.services {
+  padding: 50px 20px;
+  background-color: white;
+}
+
+.services-grid {
+  display: flex;
+  justify-content: space-around;
+}
+
+.service-card {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  width: 30%;
+  text-align: center;
+}
