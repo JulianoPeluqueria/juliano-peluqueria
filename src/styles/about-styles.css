@@ -1,5 +1,7 @@
 .about {
-  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  padding: 100px 20px;
   background-color: #f4f4f4;
 }
 
@@ -9,8 +11,20 @@
   gap: 20px;
 }
 
-.about img {
-  width: 200px;
+.about-img {
+  width: 300px;
   height: auto;
-  border-radius: 10px;
+  border-radius: 200px;
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.8));
+  margin-right: 40px;
+}
+
+.about-title {
+  font-size: 36px;
+}
+
+.about-paragraph {
+  max-width: 800px;
+  font-size: 24px;
+  font-weight: bold;
 }
