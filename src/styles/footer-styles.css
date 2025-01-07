@@ -4,3 +4,27 @@
   padding: 20px;
   text-align: center;
 }
+
+.footer-logo {
+  max-width: 200px;
+}
+
+.footer-socials {
+  margin: 15px 0;
+}
+
+.social-icon {
+  margin: 0 10px;
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #d4af37;
+}
+
+.footer-socials a {
+  display: inline-block;
+}

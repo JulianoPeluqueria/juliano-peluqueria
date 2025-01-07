@@ -5,6 +5,7 @@ import Gallery from "./components/Gallery";
 import About from "./components/About";
 import Services from "./components/Services";
 import Footer from "./components/Footer";
+import Videos from "./components/Videos";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <About />
       <Services />
+      <Videos />
       <Gallery />
       <Footer />
     </div>

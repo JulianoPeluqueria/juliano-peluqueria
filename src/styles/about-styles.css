@@ -1,6 +1,7 @@
 .about {
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 100px 20px;
   background-color: #f4f4f4;
 }
@@ -9,6 +10,8 @@
   display: flex;
   align-items: center;
   gap: 20px;
+  flex-direction: row;
+  text-align: left;
 }
 
 .about-img {
@@ -16,15 +19,57 @@
   height: auto;
   border-radius: 200px;
   filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.8));
-  margin-right: 40px;
 }
 
 .about-title {
-  font-size: 36px;
+  font-size: 3rem;
+  margin-bottom: 20px;
 }
 
 .about-paragraph {
   max-width: 800px;
   font-size: 24px;
   font-weight: bold;
+}
+
+/* Estilos para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-img {
+    margin: 0 auto 20px;
+    width: 250px;
+  }
+
+  .about-title {
+    font-size: 2.5rem;
+  }
+
+  .about-paragraph {
+    max-width: 500px;
+    font-size: 1.2rem;
+  }
+}
+
+/* Estilos para pantallas muy pequeñas */
+@media (max-width: 480px) {
+  .about {
+    padding: 50px 10px;
+  }
+
+  .about-img {
+    width: 200px;
+  }
+
+  .about-title {
+    font-size: 2rem;
+  }
+
+  .about-paragraph {
+    font-size: 1rem;
+    padding: 0 20px;
+  }
 }

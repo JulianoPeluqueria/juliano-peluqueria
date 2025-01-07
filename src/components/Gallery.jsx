@@ -15,7 +15,7 @@ import gallery12 from "../assets/gallery-12.jpg";
 function Gallery() {
   return (
     <section id="gallery" className="gallery">
-      <h2>Galería de Estilos</h2>
+      <h2>Galería de estilos</h2>
       <div className="gallery-grid">
         <div
           className="gallery-item"

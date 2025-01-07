@@ -5,8 +5,13 @@ function Hero() {
     <section className="hero">
       <div className="hero-content">
         <h1>Transforma tu estilo</h1>
-        <p>Con más de 30 años de experiencia, Julián te hará brillar.</p>
-        <button>Reserva tu turno</button>
+        <p>
+          "Mi Filosofia es Cuidar tu Pelo y Crear un Look Natural fácil de
+          llevar."
+          <br />
+          Juliano, el arquitecto de tu pelo.
+        </p>
+        <button>Reserva una cita</button>
       </div>
     </section>
   );

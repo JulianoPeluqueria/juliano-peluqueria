@@ -10,10 +10,11 @@
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   z-index: 10;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
 }
 
 .header-logo {
-  max-width: 200px;
+  max-width: 100px;
 }
 
 .navbar a {
@@ -28,4 +29,26 @@
 .navbar a:hover {
   color: #d4af37;
   text-decoration: underline;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .header-section {
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .navbar {
+    margin-top: 10px;
+  }
+
+  .navbar a {
+    margin: 5px;
+    font-size: 18px;
+  }
+
+  .header-logo {
+    max-width: 80px;
+  }
 }
