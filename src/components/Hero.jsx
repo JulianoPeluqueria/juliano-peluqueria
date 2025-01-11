@@ -6,12 +6,14 @@ function Hero() {
       <div className="hero-content">
         <h1>Transforma tu estilo</h1>
         <p>
-          "Mi Filosofia es Cuidar tu Pelo y Crear un Look Natural fácil de
+          "Mi Filosofía es Cuidar tu Pelo y Crear un Look Natural fácil de
           llevar."
           <br />
           Juliano, el arquitecto de tu pelo.
         </p>
-        <button>Reserva una cita</button>
+        <a href="tel:+123456789" className="cta-button">
+          <i className="fas fa-phone"></i> Reserva una cita
+        </a>
       </div>
     </section>
   );

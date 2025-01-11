@@ -1,3 +1,4 @@
+/* Ajustes generales */
 .services {
   padding: 50px 20px 100px;
   background-color: white;
@@ -17,11 +18,15 @@
   flex-wrap: wrap;
 }
 
+.service-item {
+  width: 30%;
+}
+
 .service-card {
   position: relative;
   background-size: cover;
   background-position: center;
-  width: 30%;
+  width: 100%;
   height: 200px;
   border-radius: 10px;
   overflow: hidden;
@@ -61,11 +66,29 @@
   background-color: rgba(0, 0, 0, 0.2);
 }
 
+.service-prices {
+  display: inline-block;
+  text-align: left;
+  margin-top: 15px auto;
+  padding: 0;
+  list-style: none;
+}
+
+.service-prices li {
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+  color: #000000;
+  font-weight: 600;
+}
+
+.service-prices li::before {
+  content: "•";
+  color: #000000;
+  margin-right: 8px;
+}
+
 /* Responsividad */
 @media (max-width: 768px) {
-  .services {
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.367);
-  }
   .services h2 {
     font-size: 2.5rem;
   }
@@ -75,9 +98,13 @@
     align-items: center;
   }
 
-  .service-card {
+  .service-item {
     width: 80%;
     margin-bottom: 20px;
+  }
+
+  .service-card {
+    height: 180px;
   }
 }
 
@@ -87,11 +114,14 @@
   }
 
   .service-card {
-    width: 100%;
     height: 150px;
   }
 
   .service-name {
     font-size: 1.2rem;
+  }
+
+  .service-prices li {
+    font-size: 0.9rem;
   }
 }

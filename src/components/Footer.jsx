@@ -22,7 +22,7 @@ function Footer() {
         </div>
 
         <div className="footer-column">
-          <h3>Redes sociales</h3>
+          <h3>Redes y contacto</h3>
           <ul className="social-list">
             <li>
               <a href="#" aria-label="Facebook" className="social-icon">
@@ -35,8 +35,12 @@ function Footer() {
               </a>
             </li>
             <li>
-              <a href="#" aria-label="WhatsApp" className="social-icon">
-                <i className="fab fa-whatsapp"></i> WhatsApp
+              <a
+                href="tel:+541112345678"
+                aria-label="Teléfono"
+                className="social-icon"
+              >
+                <i className="fas fa-phone-alt"></i> Teléfono
               </a>
             </li>
           </ul>
@@ -49,16 +53,16 @@ function Footer() {
               <a href="#home">Home</a>
             </li>
             <li>
-              <a href="#about">About</a>
+              <a href="#about">Trayectoria</a>
             </li>
             <li>
-              <a href="#services">Services</a>
+              <a href="#services">Servicios</a>
             </li>
             <li>
-              <a href="#gallery">Gallery</a>
+              <a href="#videos">Efecto Juliano</a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a href="#gallery">Galería</a>
             </li>
           </ul>
         </div>
