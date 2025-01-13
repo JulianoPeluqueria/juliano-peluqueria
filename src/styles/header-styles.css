@@ -6,7 +6,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 20px 20px 0;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   z-index: 10;
@@ -14,7 +14,7 @@
 }
 
 .header-logo {
-  max-width: 100px;
+  max-width: 120px;
 }
 
 .navbar a {
@@ -49,6 +49,6 @@
   }
 
   .header-logo {
-    max-width: 80px;
+    max-width: 120px;
   }
 }

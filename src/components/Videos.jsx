@@ -16,6 +16,12 @@ function Videos() {
   return (
     <section id="videos" className="videos-section">
       <h2>Vive el #EfectoJuliano</h2>
+      <p
+        style={{ fontSize: "1.5rem", fontStyle: "italic", fontWeight: "bold" }}
+      >
+        ...El Efecto Juliano es una sensación de bienestar contigo mismo y con
+        tu pelo...
+      </p>
       <div className="videos-grid">
         {videos.map((video, index) => (
           <div key={index} className="video-card">

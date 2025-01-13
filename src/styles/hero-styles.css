@@ -41,6 +41,7 @@
 
 .hero-content p {
   font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .cta-button {
@@ -102,10 +103,17 @@
   .hero {
     height: 100vh;
     background-size: cover;
-    /* background-position: center; */
+  }
+
+  .hero-content {
+    margin: 0 auto 20px;
+    max-width: 300px;
   }
 
   .hero h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
+  }
+  .hero-content p {
+    font-size: 1.1rem;
   }
 }

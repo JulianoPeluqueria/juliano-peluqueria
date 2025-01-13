@@ -93,6 +93,7 @@
 @media (max-width: 1024px) {
   .gallery {
     max-width: 90%;
+    padding: 0;
   }
 
   .gallery h2 {

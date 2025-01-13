@@ -17,6 +17,7 @@
 .about-img {
   width: 300px;
   height: auto;
+  margin-right: 30px;
   border-radius: 200px;
   filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.8));
 }
@@ -40,7 +41,7 @@
   }
 
   .about-img {
-    margin: 0 auto 20px;
+    margin: 0 auto;
     width: 250px;
   }
 

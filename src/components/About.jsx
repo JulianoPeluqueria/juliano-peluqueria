@@ -7,15 +7,22 @@ function About() {
       <div className="about-content">
         <img className="about-img" src={julian} alt="Julián" />
         <div>
-          <h2 className="about-title">Trayectoria</h2>
+          <h2 className="about-title">Acerca de mi</h2>
           <p className="about-paragraph">
-            "En estos 30 años de experiencia, he transformado el estilo de
-            cientos de clientes con un enfoque único y personalizado."
-            <br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-            modi accusantium eum ducimus odit alias nihil ipsam commodi maiores
-            eius! Officia, commodi sunt provident ipsam totam ducimus expedita
-            corrupti alias.
+            ¡Hola! Soy Julián, y llevo más de 30 años dedicándome a lo que más
+            me apasiona: cuidar y transformar el cabello de mis clientes. Empecé
+            en el año 88, aprendiendo de mi peluquero mientras hacía mi primer
+            curso, y desde entonces no he parado de crecer en este mundo. A
+            mediados de los 90 me fui a Barcelona, donde trabajé en varias
+            peluquerías y, luego de algunos años, abrí la mía propia. Después de
+            8 años en Barcelona me mudé a Londres, donde perfeccioné mi técnica
+            con cursos de corte, técnicas de coloración, extensiones y muchos
+            más. Desde el 2006 estoy en Torremolinos, Málaga, donde abrí Juliano
+            Peluquería, un espacio que fui ampliando con los años para ofrecerte
+            siempre lo mejor. Mi experiencia, premios y formación son el
+            respaldo, pero lo más importante para mí es que salgas de aquí
+            sintiéndote espectacular. ¿Te animas a darme la oportunidad de
+            cuidar tu cabello?
           </p>
         </div>
       </div>
