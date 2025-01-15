@@ -64,7 +64,7 @@ function Footer() {
           <h3>Secciones</h3>
           <ul className="footer-links">
             <li>
-              <a href="/">Hero</a>
+              <a href="#top">Home</a>
             </li>
             <li>
               <a href="#about">Acerca de mi</a>
