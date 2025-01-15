@@ -8,11 +8,13 @@ const Header = () => {
   return (
     <>
       <header className="header-section">
-        <img
-          className="header-logo"
-          src={logo3}
-          alt="Juliano Peluqueria Logo"
-        />
+        <a href="/">
+          <img
+            className="header-logo"
+            src={logo3}
+            alt="Juliano Peluqueria Logo"
+          />
+        </a>
         <nav className="navbar">
           <a href="#about">Acerca de mi</a>
           <a href="#services">Servicios</a>

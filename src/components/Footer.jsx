@@ -12,7 +12,7 @@ function Footer() {
             <iframe
               title="Mapa interactivo"
               src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d200.15679542868978!2d-4.501524178567876!3d36.6141394191943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzbCsDM2JzUwLjkiTiA0wrAzMCcwNC45Ilc!5e0!3m2!1ses-419!2sar!4v1736797937083!5m2!1ses-419!2sar"
-              width="100%"
+              width="90%"
               height="250"
               style={{ border: 0 }}
               allowFullScreen=""
@@ -82,11 +82,13 @@ function Footer() {
         </div>
 
         <div className="footer-column">
-          <img
-            className="footer-logo"
-            src={logo2}
-            alt="Juliano Peluqueria Logo"
-          />
+          <a href="/">
+            <img
+              className="footer-logo"
+              src={logo2}
+              alt="Juliano Peluqueria Logo"
+            />
+          </a>
         </div>
       </div>
     </footer>
