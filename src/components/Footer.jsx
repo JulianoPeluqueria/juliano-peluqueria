@@ -82,7 +82,7 @@ function Footer() {
         </div>
 
         <div className="footer-column">
-          <a href="/">
+          <a href="#top">
             <img
               className="footer-logo"
               src={logo2}

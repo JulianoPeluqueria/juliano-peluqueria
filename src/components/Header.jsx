@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <>
       <header className="header-section">
-        <a href="/">
+        <a href="#top">
           <img
             className="header-logo"
             src={logo3}
