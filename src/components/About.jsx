@@ -1,5 +1,7 @@
 import "../styles/about-styles.css";
 import julian from "../assets/about-pic.png";
+import diploma1 from "../assets/diploma1.jpg";
+import diploma2 from "../assets/diploma2.jpg";
 
 function About() {
   return (
@@ -25,6 +27,10 @@ function About() {
             cuidar tu cabello?
           </p>
         </div>
+      </div>
+      <div className="about-diplomas">
+        <img className="diploma-img" src={diploma1} alt="Diploma 1" />
+        <img className="diploma-img" src={diploma2} alt="Diploma 2" />
       </div>
     </section>
   );

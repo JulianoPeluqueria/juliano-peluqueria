@@ -112,7 +112,7 @@ table th {
 }
 
 table tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: #d3d3d3;
 }
 
 /* Responsividad */
@@ -133,6 +133,10 @@ table tr:nth-child(even) {
 
   .service-card {
     height: 180px;
+  }
+
+  .price-tables {
+    max-width: 90%;
   }
 
   .price-table {
