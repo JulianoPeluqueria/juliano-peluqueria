@@ -8,13 +8,13 @@ function Services() {
     <section id="services" className="services">
       <h2>Servicios</h2>
       <div className="services-grid">
-        {/* Corte y Estilo */}
+        {/* Corte*/}
         <div className="service-item">
           <div
             className="service-card"
             style={{ backgroundImage: `url(${service1})` }}
           >
-            <div className="service-name">Corte y Estilo</div>
+            <div className="service-name">Corte</div>
           </div>
           <div className="price-table">
             <table>
