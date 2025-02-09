@@ -10,14 +10,13 @@ import Videos from "./components/Videos";
 function App() {
   return (
     <div className="App">
-      {/* <Header />
+      <Header />
       <Hero />
       <Services />
       <About />
       <Gallery />
       <Videos />
-      <Footer /> */}
-      <h1>SERVICIO SUSPENDIDO TEMPORALMENTE</h1>
+      <Footer />
     </div>
   );
 }
