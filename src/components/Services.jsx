@@ -27,31 +27,31 @@ function Services() {
               <tbody>
                 <tr>
                   <td>Lavar y peinar desde</td>
-                  <td>12 €</td>
+                  <td>15 €</td>
                 </tr>
                 <tr>
                   <td>Lavar, cortar y peinar (pelo corto)</td>
-                  <td>25 €</td>
+                  <td>32 €</td>
                 </tr>
                 <tr>
                   <td>Lavar, cortar y peinar (pelo largo)</td>
-                  <td>30 €</td>
-                </tr>
-                <tr>
-                  <td>Cambio de estilo</td>
-                  <td>35 €</td>
-                </tr>
-                <tr>
-                  <td>Recogidos desde</td>
                   <td>40 €</td>
                 </tr>
                 <tr>
+                  <td>Cambio de estilo</td>
+                  <td>42 €</td>
+                </tr>
+                <tr>
                   <td>Corte, lavar y estilo (hombres)</td>
-                  <td>14 €</td>
+                  <td>20 €</td>
                 </tr>
                 <tr>
                   <td>Corte a máquina y lavar (hombres)</td>
-                  <td>12 €</td>
+                  <td>18 €</td>
+                </tr>
+                <tr>
+                  <td>Recogidos</td>
+                  <td>consultar precios</td>
                 </tr>
               </tbody>
             </table>
@@ -77,27 +77,27 @@ function Services() {
               <tbody>
                 <tr>
                   <td>Color, lavar y peinar (pelo corto)</td>
-                  <td>25 €</td>
+                  <td>32 €</td>
                 </tr>
                 <tr>
                   <td>Color sin amoniaco (pelo corto)</td>
-                  <td>30 €</td>
+                  <td>38 €</td>
                 </tr>
                 <tr>
                   <td>Mechas, lavar y peinar (pelo corto)</td>
-                  <td>30 €</td>
-                </tr>
-                <tr>
-                  <td>Mechas Balayage desde</td>
                   <td>40 €</td>
                 </tr>
                 <tr>
-                  <td>Color, lavar y estilo desde (hombres)</td>
-                  <td>20 €</td>
+                  <td>Mechas Balayage desde</td>
+                  <td>60 €</td>
                 </tr>
                 <tr>
-                  <td>Mechas, lavar y estilo desde (hombres)</td>
-                  <td>20 €</td>
+                  <td>Color, lavar y estilo (hombres) desde</td>
+                  <td>30 €</td>
+                </tr>
+                <tr>
+                  <td>Mechas, lavar y estilo (hombres)</td>
+                  <td>30 €</td>
                 </tr>
               </tbody>
             </table>
@@ -123,27 +123,23 @@ function Services() {
               <tbody>
                 <tr>
                   <td>Tratamiento Olaplex desde</td>
-                  <td>15 €</td>
+                  <td>25 €</td>
                 </tr>
                 <tr>
-                  <td>Tratamiento Keratina Brasileña desde</td>
-                  <td>65 €</td>
+                  <td>Tratamiento Keratina</td>
+                  <td>85 €</td>
                 </tr>
                 <tr>
-                  <td>Tratamiento Derizante desde</td>
-                  <td>60 €</td>
+                  <td>Tratamiento Derizante</td>
+                  <td>30 €</td>
                 </tr>
                 <tr>
-                  <td>Tratamiento Botox desde</td>
-                  <td>35 €</td>
+                  <td>Tratamiento Botox</td>
+                  <td>45 €</td>
                 </tr>
                 <tr>
                   <td>Keratina Japonesa desde</td>
-                  <td>120 €</td>
-                </tr>
-                <tr>
-                  <td>Tratamiento Desrizante (hombres)</td>
-                  <td>20 €</td>
+                  <td>140 €</td>
                 </tr>
               </tbody>
             </table>

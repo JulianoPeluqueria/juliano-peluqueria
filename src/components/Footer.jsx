@@ -25,6 +25,20 @@ function Footer() {
         </div>
 
         <div className="footer-column">
+          <h3>Horarios de atención</h3>
+          <p>
+            De <strong>lunes a viernes</strong> de 10:00 a 14:00 y de 16:30 a
+            19:00
+          </p>
+          <p>
+            <strong>Sábados</strong> de 10:00 a 14:00
+          </p>
+          <p>
+            <strong>Domingo</strong> (cerrado)
+          </p>
+        </div>
+
+        <div className="footer-column">
           <h3>Redes y contacto</h3>
           <ul className="social-list">
             <li>
